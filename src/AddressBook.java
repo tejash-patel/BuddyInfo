@@ -20,6 +20,10 @@ public class AddressBook {
         return null;
     }
 
+    public void testMethod() {
+        System.out.println("This method don't do anything.");
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
         AddressBook addressBook = new AddressBook();
